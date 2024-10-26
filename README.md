@@ -44,7 +44,9 @@
     </style>
 
   ![image](https://github.com/user-attachments/assets/fa2ee7d6-a86b-4e22-a20b-e5eb46502ff7)
-  Tiga kotak (div1, div2, div3) yang berwarna merah, kuning, dan hijau diatur agar sejajar secara horizontal dengan menggunakan properti float.
+
+  Tiga kotak (div1, div2, div3) yang berwarna merah, kuning, dan hijau diatur agar 
+  sejajar secara horizontal dengan menggunakan properti float.
 <br>
 
 <h2>3. Mengatur Clearfix Element</h2>
