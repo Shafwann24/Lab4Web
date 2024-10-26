@@ -1,18 +1,18 @@
 <h2>1. Membuatlab4_box.htm</h2>
 
          <!DOCTYPE html>
-    <html lang="en">
-    <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Box Element</title>
-    </head>
-    <body>
-     <header>
-     <h1>Box Element</h1>
-     </header>
-    </body>
-    </html>
+             <html lang="en">
+             <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Box Element</title>
+             </head>
+             <body>
+              <header>
+              <h1>Box Element</h1>
+              </header>
+             </body>
+             </html>
    
 ![image](https://github.com/user-attachments/assets/72ecbc2c-dc85-4ca5-a847-cfa0ce42b73c)
 <br>
