@@ -531,6 +531,8 @@ CSS
          }
 
 ![image](https://github.com/user-attachments/assets/8273fe32-8853-4a1e-b721-dca2e7201611)
+Form kontak dengan field untuk nama, email, dan pesan.
+Tombol "Send Message" yang berfungsi untuk mengirim form.
 
 
 
