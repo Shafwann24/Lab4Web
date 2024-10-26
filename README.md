@@ -44,6 +44,7 @@
     </style>
 
   ![image](https://github.com/user-attachments/assets/fa2ee7d6-a86b-4e22-a20b-e5eb46502ff7)
+  Tiga kotak (div1, div2, div3) yang berwarna merah, kuning, dan hijau diatur agar sejajar secara horizontal dengan menggunakan properti float.
 <br>
 
 <h2>3. Mengatur Clearfix Element</h2>
@@ -74,6 +75,10 @@
         
     </body>
     </html>
+    
+ Menambahkan kotak keempat (div4) dengan warna biru yang diatur menggunakan properti clear untuk menghentikan efek float dari elemen sebelumnya, sehingga kotak tersebut muncul di bawahnya alih-alih di samping. Ini berfungsi untuk mengatur aliran tata letak dalam desain halaman.
+
+<br>
 
 <h2>Kemudian buat kerangka layout dengan semantics element seperti berikut</h2>
 
@@ -96,6 +101,8 @@
     </footer>
 
 ![image](https://github.com/user-attachments/assets/08961990-f277-4bd1-9cf9-7b125a255737)
+dalam file HTML, elemen-elemen semantik seperti <header>, <nav>, dan <footer> digunakan untuk membuat kerangka dasar tata letak halaman. Elemen <nav> berfungsi untuk navigasi, sementara <section> digunakan untuk menempatkan konten utama (#main) dan sidebar (#sidebar). Elemen ini membantu menjaga struktur halaman tetap bersih dan terorganisir.
+<br>
 
 <h2>Kemudian tambahkan kode CSS untuk membuat layoutnya</h2>
 
@@ -132,6 +139,9 @@
     }
 
 ![image](https://github.com/user-attachments/assets/1af52861-0671-4859-85d4-e5dbf6797d02)
+Mengimpor font Google Open Sans untuk diterapkan di seluruh halaman. Selanjutnya, menggunakan "Reset CSS" untuk menghapus margin dan padding default dari semua elemen, sehingga memberikan kontrol penuh atas tata letak. Properti body menetapkan font dasar, ukuran teks, dan warna teks default. Bagian #container mengatur lebar halaman menjadi 980px, dipusatkan dengan margin otomatis, serta ditambahkan efek bayangan halus. Pada header, padding ditambahkan, dan warna teks judul (h1) diatur menjadi abu-abu terang (#b5b5b5), sehingga memberikan tampilan yang bersih dan rapi.
+
+<br>
 
 <h2>Membuat Navigasi</h2>
 
@@ -154,6 +164,9 @@
     }
 
 ![image](https://github.com/user-attachments/assets/61662287-40dc-41ba-805e-8f33ff11b16c)
+Kode ini mengatur gaya untuk elemen navigasi. Navigasi memiliki latar belakang berwarna biru gelap (#1f5faa), dan tautan (link) ditampilkan sebagai blok inline dengan padding, serta teks berwarna putih. Saat tautan aktif atau ketika di-hover, latar belakangnya berubah menjadi biru yang lebih terang (#2b83ea) untuk memberikan efek interaktif.
+
+<br>
 
 <h2>Membuat Hero Panel</h2>
 
@@ -186,6 +199,7 @@ CSS
 
 
 ![image](https://github.com/user-attachments/assets/efdb94ec-5725-4083-a9af-fe711d246482)
+Kode ini membuat Hero Panel, sebuah elemen yang mencolok di halaman web. Bagian HTML menggunakan elemen <section> dengan ID hero, yang berisi judul besar, paragraf, dan tombol "Learn more". Dalam CSS, panel ini memiliki latar belakang berwarna abu-abu terang (#e4e4e5), dengan padding yang luas untuk memberikan ruang, serta margin bawah untuk memisahkannya dari elemen lainnya.
 
 <br>
 
@@ -250,7 +264,9 @@ CSS
     
     
 ![image](https://github.com/user-attachments/assets/b386ea1c-2807-4050-a0f6-c1fa45550595)
+Kode ini membuat sebuah Sidebar Widget yang terdiri dari dua bagian. Bagian pertama adalah daftar tautan dengan judul Widget Header, sementara bagian kedua menyajikan teks deskriptif dengan judul Widget Text. Dalam CSS, setiap widget memiliki batas tipis (1px solid #eee) dan margin bawah untuk memberikan pemisahan visual antar widget. Judul widget (.title) memiliki latar belakang berwarna biru (#428bca) dan teks berwarna putih, sedangkan tautan diatur dengan padding dan warna abu-abu. Saat tautan di-hover, latar belakangnya berubah menjadi abu-abu muda untuk memberikan efek interaktif.
 
+<br>
 
 <h2>Mengatur Footer</h2>
 
@@ -342,8 +358,9 @@ CSS
     }
     
 ![image](https://github.com/user-attachments/assets/8376802a-bc8d-49ec-9123-fa24aee11c2a)
+Kode ini menambahkan elemen tambahan pada Konten Utama berupa tiga kotak yang berisi gambar, judul, paragraf, dan tombol tautan. Setiap kotak diatur dalam satu baris, dengan gambar berbentuk lingkaran (.image-circle) dan konten yang tersusun rapi dalam proporsi sepertiga dari lebar kontainer. CSS memastikan tata letak yang responsif dengan menggunakan properti float, box-sizing, dan pengaturan margin untuk menjaga jarak antar elemen. Setiap kotak memiliki teks yang rata tengah dan tombol yang disesuaikan untuk navigasi.
 
-
+<br>
 
 <h2>Menambahkan Content Artikel</h2>
 
@@ -394,6 +411,8 @@ CSS
          }
 
 ![image](https://github.com/user-attachments/assets/4ff04203-bace-4234-85d2-e8519f6d4387)
+
+Kode ini menambahkan konten artikel ke dalam tata letak dengan tiga elemen artikel (<article>) yang masing-masing mencakup judul, gambar, dan paragraf. Setiap artikel dipisahkan oleh garis horizontal (<hr>) yang menggunakan kelas divider untuk menciptakan tampilan yang bersih. Gambar dalam artikel diatur untuk mengalir ke kiri atau kanan teks, dengan CSS yang mengatur margin dan border-radius, sehingga menciptakan tampilan yang rapi dan terorganisir. Desain ini memastikan bahwa teks mudah dibaca berkat pengaturan line-height dan margin yang sesuai pada elemen teks.
 
 <br>
 
@@ -455,7 +474,7 @@ CSS
          }
 
 ![image](https://github.com/user-attachments/assets/0c2f5e91-f95c-4b56-ac4d-d4195f3ce5b0)
-
+Kode ini menciptakan halaman "About" yang informatif dan terstruktur dengan baik, menampilkan deskripsi perusahaan dan portofolio proyek yang mudah diakses. Desain responsif berkat penggunaan CSS Flexbox memastikan bahwa konten akan terlihat baik di berbagai ukuran layar.
 
 <br>
 
