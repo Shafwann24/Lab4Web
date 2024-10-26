@@ -345,4 +345,192 @@ CSS
 
 
 
+<h2>Menambahkan Content Artikel</h2>
+
+         <hr class="divider" />
+         <article class="entry">
+          <h2>First featurette heading.</h2>
+          <img src="https://dummyimage.com/150/7b8a70/fff.png" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+         elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+         vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+         pretium ac.</p>
+         </article>
+         <hr class="divider" />
+         <article class="entry">
+          <h2>First featurette heading.</h2>
+          <img src="https://dummyimage.com/150/7b8a70/fff.png" alt=""
+         class="right-img">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem
+         elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
+         vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
+         pretium ac.</p>
+         </article>
+
+CSS
+
+         .divider {
+             border:0;
+             border-top:1px solid #eeeeee;
+             margin:40px 0;
+             }
+             /* entry */
+             .entry {
+             margin: 15px 0;
+             }
+             .entry h2 {
+             margin-bottom: 20px;
+         }
+         .entry p {
+             line-height: 25px;
+         }
+         .entry img {
+             float: left;
+             border-radius: 5px;
+             margin-right: 15px;
+         }
+         .entry .right-img {
+             float: right;
+         }
+
+![image](https://github.com/user-attachments/assets/4ff04203-bace-4234-85d2-e8519f6d4387)
+
+<br>
+
+<h1>Jawaban dan Tugas</h1>
+
+<h2>1. Tambahkan Layout untuk menu About</h2>
+
+         <!DOCTYPE html>
+         <html lang="en">
+         <head>
+             <meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <title>About</title>
+             <link rel="stylesheet" href="style.css">
+         </head>
+         <body>
+             <header>
+                 <h1>About Us</h1>
+             </header>
+             <section id="about">
+                 <h2>Deskripsi</h2>
+                 <p>Kami adalah perusahaan yang bergerak di bidang teknologi dan inovasi.</p>
+        <h2>Portfolio</h2>
+        <div class="portfolio">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Deskripsi singkat proyek.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Deskripsi singkat proyek.</p>
+            </div>
+            <!-- Tambahkan lebih banyak proyek jika diperlukan -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 - Perusahaan XYZ</p>
+    </footer>
+         </body>
+         </html>
+
+CSS
+
+         #about {
+             padding: 20px;
+         }
+         
+         .portfolio {
+             display: flex;
+             flex-wrap: wrap;
+         }
+         
+         .project {
+             width: 45%;
+             margin: 10px;
+             padding: 15px;
+             background-color: #f4f4f4;
+             border-radius: 8px;
+         }
+
+![image](https://github.com/user-attachments/assets/0c2f5e91-f95c-4b56-ac4d-d4195f3ce5b0)
+
+
+<br>
+
+<h2>2. 2. Menambahkan Layout untuk Menu Contact</h2>
+
+         <!DOCTYPE html>
+         <html lang="en">
+         <head>
+             <meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <title>Contact Us</title>
+             <link rel="stylesheet" href="style.css">
+         </head>
+         <body>
+             <header>
+                 <h1>Contact Us</h1>
+             </header>
+             <section id="contact">
+                 <form action="#" method="post">
+                     <label for="name">Name:</label>
+                     <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 - Perusahaan XYZ</p>
+    </footer>
+         </body>
+         </html>
+
+CSS
+
+         #contact {
+             padding: 20px;
+         }
+         
+         form {
+             display: flex;
+             flex-direction: column;
+         }
+         
+         label {
+             margin-top: 10px;
+             font-weight: bold;
+         }
+         
+         input, textarea {
+             margin-top: 5px;
+             padding: 10px;
+             border: 1px solid #ccc;
+             border-radius: 4px;
+         }
+         
+         button {
+             margin-top: 15px;
+             padding: 10px;
+             background-color: #1f5faa;
+             color: #fff;
+             border: none;
+             border-radius: 4px;
+             cursor: pointer;
+         }
+         
+         button:hover {
+             background-color: #2b83ea;
+         }
+
+![image](https://github.com/user-attachments/assets/8273fe32-8853-4a1e-b721-dca2e7201611)
+
+
 
